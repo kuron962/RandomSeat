@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>座席決めアプリ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>座席決めアプリ</h1>
+      <input type="text" id="participantName" placeholder="参加者名" />
+      <button onclick="addParticipant()">参加者を追加</button>
+      <button onclick="finalizeSeats()">座席を決定</button>
+      <div id="participant">
+        <h2>追加済みの参加者</h2>
+        <ul id="participantsList"></ul>
+      </div>
+
+      <ul id="seats"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
